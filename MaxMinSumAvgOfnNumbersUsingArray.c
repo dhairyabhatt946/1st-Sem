@@ -14,10 +14,10 @@ void main(){
 	min=arr[0];
 	for(i=0;i<n;i++){
 		sum=sum+arr[i];
-		if(arr[i]>arr[0]){
+		if(arr[i]>max){
 			max=arr[i];
 		}
-		else if(arr[i]<arr[0]){
+		else if(arr[i]<min){
 			min=arr[i];
 		}
 	}
